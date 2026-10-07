@@ -141,6 +141,20 @@ button[data-baseweb="tab"] {
 button[data-baseweb="tab"][aria-selected="true"] {
     color: #FFFFFF !important;
 }
+/* Reset Filters button */
+section[data-testid="stSidebar"] .stButton button {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    border: 1px solid #FFFFFF !important;
+    font-weight: 800 !important;
+}
+
+section[data-testid="stSidebar"] .stButton button p,
+section[data-testid="stSidebar"] .stButton button span {
+    color: #000000 !important;
+}
+
+
 
 </style>
 """, unsafe_allow_html=True)
