@@ -101,6 +101,47 @@ st.markdown("""
         font-weight: 600;
     }
 
+    /* Improve text visibility on dark theme */
+.stApp,
+.stApp p,
+.stApp span,
+.stApp label,
+.stApp div,
+.stMarkdown,
+.stCaption {
+    color: #F5F7FA !important;
+}
+
+/* Sidebar text */
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] label {
+    color: #E8ECF2 !important;
+}
+
+/* Metric labels and values */
+[data-testid="stMetricLabel"] {
+    color: #DDE3EA !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #FFFFFF !important;
+}
+
+/* Captions */
+.stCaption {
+    color: #B8C0CC !important;
+}
+
+/* Tab names */
+button[data-baseweb="tab"] {
+    color: #E8ECF2 !important;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #FFFFFF !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
