@@ -153,6 +153,10 @@ section[data-testid="stSidebar"] .stButton button p,
 section[data-testid="stSidebar"] .stButton button span {
     color: #000000 !important;
 }
+/* Match Streamlit header with dashboard background */
+header[data-testid="stHeader"] {
+    background-color: #0F172A !important;
+}
 
 
 
